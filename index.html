@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecurie Data Collector</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gabarito:wght@600&family=Kumbh+Sans:wght@200;300;400&family=Roboto:wght@500&family=Teko:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        ECURIE AIX DATA COLLECTOR
+    </header>
+    <div class="main-block">
+        <div class="subblock1">
+            <div class="text-field">
+                <div class="list-header">eax01</div>
+                <ul class="list">
+                    <li><a href="http://ecuriedatacollector.eu:3000/public-dashboards/9c999165c7eb4e54868f47b2d3d34c54"
+                            target="_blank">FSA</a></li>
+                    <li><a href="http://ecuriedatacollector.eu:3000/public-dashboards/2a2497f3b4044e9991775129cd2273db"
+                            target="_blank">FSE</a></li>
+                    <li><a href="http://ecuriedatacollector.eu:3000/public-dashboards/ef4719ffe3764c6784e1647676f1f82c"
+                            target="_blank">FSG</a></li>
+                    <li><a href="http://ecuriedatacollector.eu:3000/public-dashboards/f87c683d569a45c08f6960542919acf5"
+                            target="_blank">Test</a></li>
+                    <li><a href="http://ecuriedatacollector.eu:3000/public-dashboards/666b235037cf48dc988425c87a2d2cfe"
+                            target="_blank">Overall</a></li>
+                </ul>
+            </div>
+
+            <div class="text-field">
+                <div class="list-header">eax02</div>
+                <ul class="list">
+                    <li><a href="http://ecuriedatacollector.eu:3000/public-dashboards/86df56fa1afd486fa0d3762d438982f7?orgId=1"
+                            target="_blank">FSA</a></li>
+                    <li><a href="http://ecuriedatacollector.eu:3000/public-dashboards/6eddfcb6d2284a52952897060817d4fd"
+                            target="_blank">FSE</a></li>
+                    <li><a href="http://ecuriedatacollector.eu:3000/public-dashboards/c7698edbd4cb48179abe73bd0d964dbb"
+                            target="_blank">FSG</a></li>
+                    <li><a href="http://ecuriedatacollector.eu:3000/public-dashboards/1372f522ea8043b484815003a075b5bf"
+                            target="_blank">Test</a></li>
+                    <li><a href="http://ecuriedatacollector.eu:3000/public-dashboards/6eb5eca2e2b34fd98f4f0e709a877e12"
+                            target="_blank">Overall</a></li>
+                </ul>
+            </div>
+
+            <div class="text-field">
+                <div class="list-header">eax03</div>
+                <ul class="list">
+                    <li><a href="http://ecuriedatacollector.eu:3000/public-dashboards/8e453978013a45c492cdf93210b2be0c"
+                            target="_blank">FSA</a></li>
+                    <li><a href="http://ecuriedatacollector.eu:3000/public-dashboards/00d06b9e58b7423c9bbc11034f6cfd50"
+                            target="_blank">FSE</a></li>
+                    <li><a href="http://ecuriedatacollector.eu:3000/public-dashboards/eab51446daae4726afbffa2936b2fa13"
+                            target="_blank">FSG</a></li>
+                    <li><a href="http://ecuriedatacollector.eu:3000/public-dashboards/0069c6663ca84913994c529e75a1a54e"
+                            target="_blank">Test</a></li>
+                    <li><a href="http://ecuriedatacollector.eu:3000/public-dashboards/5f933c7875374e479a04cea5aae18555"
+                            target="_blank">Overall</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="subblock2">
+            <div class="radio-group">
+                <div class="question-title">Select a car:<span class="required">*</span> </div>
+                <ul class="question-list">
+                    <li class="question-item">
+                        <input type="radio" name="car" value="eax01" id="r11">
+                        <label for="r11" class="question-label-radial">eax01</label>
+                    </li>
+                    <li class="question-item">
+                        <input type="radio" name="car" value="eax02" id="r12">
+                        <label for="r12" class="question-label-radial">eax02</label>
+                    </li>
+                    <li class="question-item">
+                        <input type="radio" name="car" value="eax03" id="r13">
+                        <label for="r13" class="question-label-radial">eax03</label>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="radio-group">
+                <div class="question-title">Download new data?<span class="required">*</span> </div>
+                <ul class="question-list">
+                    <li class="question-item">
+                        <input type="radio" name="download" value="yes" id="r21">
+                        <label for="r21" class="question-label-radial">Yes</label>
+                    </li>
+                    <li class="question-item">
+                        <input type="radio" name="download" value="no" id="r22">
+                        <label for="r22" class="question-label-radial">No, work with already downloaded</label>
+                    </li>
+                </ul>
+            </div>
+            <button class="start-button">START</button>
+        </div>
+
+        <div class="subblock3">
+            <div class="checkbox-group">
+                <div class="question-title">Select events:<span class="required">*</span> </div>
+                <ul class="question-list">
+                    <li class="question-item">
+                        <input type="checkbox" name="event" value="FSA" class="checkbox-option" id="ch11">
+                        <label for="ch11" class="question-label-checkbox">FSA</label>
+                    </li>
+                    <li class="question-item">
+                        <input type="checkbox" name="event" value="FSE" class="checkbox-option" id="ch12">
+                        <label for="ch12" class="question-label-checkbox">FSE</label>
+                    </li>
+                    <li class="question-item">
+                        <input type="checkbox" name="event" value="FSG" class="checkbox-option" id="ch13">
+                        <label for="ch13" class="question-label-checkbox">FSG</label>
+                    </li>
+                    <li class="question-item">
+                        <input type="checkbox" name="event" value="Test" class="checkbox-option" id="ch14">
+                        <label for="ch14" class="question-label-checkbox">Test</label>
+                    </li>
+                    <li class="question-item">
+                        <input type="checkbox" name="event" value="Overall" class="checkbox-option" id="ch15">
+                        <label for="ch15" class="question-label-checkbox">Overall</label>
+                    </li>
+                    <li class="question-item">
+                        <input type="checkbox" name="event" value="FSN" class="checkbox-option" id="ch16">
+                        <label for="ch16" class="question-label-checkbox">FSN</label>
+                    </li>
+                    <li class="question-item">
+                        <input type="checkbox" name="event" value="FSAA" class="checkbox-option" id="ch17">
+                        <label for="ch17" class="question-label-checkbox">FSAA</label>
+                    </li>
+                    <li class="question-item">
+                        <input type="checkbox" name="event" value="FSCH" class="checkbox-option" id="ch18">
+                        <label for="ch18" class="question-label-checkbox">FSCH</label>
+                    </li>
+                    <li class="question-item">
+                        <input type="checkbox" name="event" value="FSCZ" class="checkbox-option" id="ch19">
+                        <label for="ch19" class="question-label-checkbox">FSCZ</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="subblock4">
+            <img src="car.jpg" alt="Car Image">
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Ecurie Aix</p>
+        </div>
+    </footer>
+</body>
+
+
+
+</html>
